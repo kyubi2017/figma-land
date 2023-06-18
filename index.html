@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png" />
+    <title>Figmaland</title>
+  </head>
+  <body>
+    <!---- NAV BAR -->
+    <nav>
+      <div class="logo">
+        <img src="/logo-top.png" alt="Logo" />
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#testimonial">Reviews</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-social">
+        <box-icon
+          class="icons"
+          type="logo"
+          name="linkedin"
+          color="white"
+        ></box-icon>
+        <box-icon
+          class="icons"
+          type="logo"
+          name="facebook"
+          color="white"
+        ></box-icon>
+        <box-icon
+          class="icons"
+          type="logo"
+          name="twitter"
+          color="white"
+        ></box-icon>
+      </div>
+      <input type="checkbox" id="checkbox" />
+      <label for="checkbox" class="toggle">
+        <div class="bars" id="bar1"></div>
+        <div class="bars" id="bar2"></div>
+        <div class="bars" id="bar3"></div>
+      </label>
+    </nav>
+    <!---- HERO -->
+    <main class="hero" id="home">
+      <h1>
+        The best product start with <br />
+        Figma
+      </h1>
+      <p>
+        Most calendar are designed for teams. <br />
+        Slate is designed for freelancers
+      </p>
+      <button>Try For Free</button>
+    </main>
+    <!---- FEATURES -->
+    <section class="features" id="features">
+      <h2>Features</h2>
+      <p>
+        Most calendars are designed for teams. Slate is designed for freelancers
+      </p>
+      <div class="features-cards">
+        <div class="card">
+          <box-icon
+            class="card-icon"
+            name="shape-polygon"
+            color="#2091f9"
+          ></box-icon>
+          <h3>OpenType features Variable fonts</h3>
+          <p>
+            State helps you see how many more days you need to work to reach
+            your financial goal
+          </p>
+        </div>
+        <div class="card">
+          <box-icon class="card-icon" name="paint" color="#2091f9"></box-icon>
+          <h3>Design with real data</h3>
+          <p>
+            Slate helps you see how many more days you need to work to reach
+            your financial goal.
+          </p>
+        </div>
+        <div class="card">
+          <box-icon
+            class="card-icon"
+            name="fast-forward"
+            color="#2091f9"
+          ></box-icon>
+          <h3>Fastest way to take action</h3>
+          <p>
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </p>
+        </div>
+      </div>
+    </section>
+    <!---- Product -->
+    <section class="product" id="product">
+      <div class="product-text">
+        <h2>Fastest way to organize</h2>
+        <p>
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </p>
+        <button>Try For Free</button>
+      </div>
+      <div class="product-img">
+        <img src="/product.png" alt="Product" />
+      </div>
+    </section>
+    <!---- Newsletter -->
+    <div class="newsletter">
+      <div class="news-img">
+        <img src="/newsletter.png" alt="Newsletter" />
+      </div>
+      <div class="newsletter-text">
+        <p>At your fingertips</p>
+        <h2>Lightning fast prototyping</h2>
+        <span>Subscribe to our Newsletter</span>
+        <p>Available exclusively on Figmaland</p>
+        <div class="newsletter-form">
+          <input type="text" placeholder="Email" />
+          <button>Count me in!</button>
+        </div>
+      </div>
+    </div>
+    <!---- Testimonial -->
+
+    <section class="testimonial" id="testimonial">
+      <h2>Our Reviews</h2>
+      <div class="wrapper-for-arrows">
+        <div style="opacity: 0" class="chicken"></div>
+        <div id="reviewWrap" class="review-wrap">
+          <div id="imgDiv" class=""></div>
+          <div id="personName"></div>
+          <div id="profession"></div>
+          <div id="description"></div>
+        </div>
+        <div class="left-arrow-wrap arrow-wrap">
+          <div class="arrow" id="leftArrow"></div>
+        </div>
+        <div class="right-arrow-wrap arrow-wrap">
+          <div class="arrow" id="rightArrow"></div>
+        </div>
+      </div>
+    </section>
+    <section class="pricing" id="pricing">
+      <h2>Pricing</h2>
+      <p>
+        Most calendars are designed for teams. Slate is designed for freelancers
+      </p>
+      <div class="pricing-cards">
+        <div class="pricing-card">
+          <h3>Free</h3>
+          <p>Organize across all apps by hand</p>
+          <p>0 <span>$/pre month</span></p>
+          <ul>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+          </ul>
+          <button>Order Now</button>
+        </div>
+        <div class="pricing-card">
+          <h3>STANDARD</h3>
+          <p>Organize across all apps by hand</p>
+          <p>10<span>$/pre month</span></p>
+          <ul>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+          </ul>
+          <button>Order Now</button>
+        </div>
+        <div class="pricing-card">
+          <h3>BUSINESS</h3>
+          <p>Organize across all apps by hand</p>
+          <p>99<span>$/pre month</span></p>
+          <ul>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+            <li>Pricing Feature</li>
+          </ul>
+          <button>Order Now</button>
+        </div>
+      </div>
+    </section>
+    <!-- --CONTACT -->
+    <div class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>
+        Most calendars are designed for teams. Slate is designed for freelancers
+      </p>
+      <div class="contact-content">
+        <div class="contact-form">
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Subject" />
+          <textarea placeholder="Message"></textarea>
+          <button>Send Message</button>
+        </div>
+        <div class="contact-right">
+          <div class="contact-info">
+            <div class="contact-elem">
+              <box-icon name="map" type="solid" color="#2091f9"></box-icon>
+              <p>
+                6386 Spring St undefined Anchorage, Georgia 12473 United States
+              </p>
+            </div>
+            <div class="contact-elem">
+              <box-icon name="phone" type="solid" color="#2091F9"></box-icon>
+              <p>(843) 555-0130</p>
+            </div>
+            <div class="contact-elem">
+              <box-icon name="envelope" color="#2091f9"></box-icon>
+              <p>willie.jennings@example.com</p>
+            </div>
+          </div>
+          <img src="/map.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- --FOOTER -->
+
+    <footer>
+      <p class="footer__copy">
+        &#169; 2023 Oussama Ait-ikhlef. All right reserved
+      </p>
+      <a href="https://github.com/kyubi2017" target="_blank">
+        <box-icon type="logo" name="github"></box-icon>
+      </a>
+      <a
+        href="https://mail.google.com/mail/?view=cm&source=mailto&to= oussamaaitikhlf@gmail.com"
+        target="_blank"
+      >
+        <box-icon name="gmail" type="logo" color="#black"></box-icon>
+      </a>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
